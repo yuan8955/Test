@@ -25,7 +25,7 @@ function formatMD(sDate)
 	sT = cdate(sDate)
 	sMonth = Month(sT)
 	sDay = Day(sT)
-	FormatMD = sMonth & "/" & sDay
+	FormatMD = sMonth & "/2" & sDay
 end function
 
 function ChkNumCss(sData)
