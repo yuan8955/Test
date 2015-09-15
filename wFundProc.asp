@@ -4,7 +4,7 @@
 <!--#include Virtual="/Lib/FilterCSFun.asp" -->
 <%
 Response.Expires = 0
-Response.CacheControl = "private2"
+Response.CacheControl = "private23"
 
 Function OpenWFundDB(conn, rs, sql)
 	if SQLInjectionFilter(sql) then 
