@@ -12,7 +12,7 @@ const defNewCode = 1	'判斷是否使用新版 Stored Procdure --  0:false; 1:true
 ' Return : 傳回 document.write 形式的結果
 '*****************************************************************************************
 Const NullValue = "N/A"
-Const sDecimal = 2
+Const sDecimal = 3
 Dim g_Decimal
 g_Decimal = sDecimal 'Default Decimal format 2
 Const sPDecimal = 2
